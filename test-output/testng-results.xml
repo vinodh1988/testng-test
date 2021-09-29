@@ -1,23 +1,117 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-09-29T16:37:36 IST" name="Static functions Math Related Test Cases" finished-at="2021-09-29T16:37:36 IST" duration-ms="87">
+  <suite started-at="2021-09-29T17:06:58 IST" name="Static functions Math Related Test Cases" finished-at="2021-09-29T17:06:58 IST" duration-ms="168">
     <groups>
     </groups>
-    <test started-at="2021-09-29T16:37:36 IST" name="Math Test" finished-at="2021-09-29T16:37:36 IST" duration-ms="87">
+    <test started-at="2021-09-29T17:06:58 IST" name="Math Test" finished-at="2021-09-29T17:06:58 IST" duration-ms="168">
       <class name="com.test.BasicMathTest">
-        <test-method signature="highTest()[pri:0, instance:com.test.BasicMathTest@44a7bfbc]" started-at="2021-09-29T16:37:36 IST" name="highTest" finished-at="2021-09-29T16:37:36 IST" duration-ms="3" status="PASS">
+        <test-method signature="highTest()[pri:0, instance:com.test.BasicMathTest@1bb266b3]" started-at="2021-09-29T17:06:58 IST" name="highTest" finished-at="2021-09-29T17:06:58 IST" duration-ms="4" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- highTest -->
+        <test-method signature="testDivideProperly()[pri:0, instance:com.test.BasicMathTest@1bb266b3]" started-at="2021-09-29T17:06:58 IST" name="testDivideProperly" finished-at="2021-09-29T17:06:58 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDivideProperly -->
+        <test-method signature="testDivideZero()[pri:0, instance:com.test.BasicMathTest@1bb266b3]" started-at="2021-09-29T17:06:58 IST" name="testDivideZero" finished-at="2021-09-29T17:06:58 IST" duration-ms="3" status="PASS">
+          <exception class="java.lang.ArithmeticException">
+            <message>
+              <![CDATA[/ by zero]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.ArithmeticException: / by zero
+at com.unit.BasicMath.divide(BasicMath.java:29)
+at com.test.BasicMathTest.testDivideZero(BasicMathTest.java:28)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.ArithmeticException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDivideZero -->
+        <test-method signature="testHighestProper()[pri:0, instance:com.test.BasicMathTest@1bb266b3]" started-at="2021-09-29T17:06:58 IST" name="testHighestProper" finished-at="2021-09-29T17:06:58 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHighestProper -->
+        <test-method signature="testHighestProper2()[pri:0, instance:com.test.BasicMathTest@1bb266b3]" started-at="2021-09-29T17:06:58 IST" name="testHighestProper2" finished-at="2021-09-29T17:06:58 IST" duration-ms="3" status="PASS">
+          <exception class="com.unit.NoArgPassedException">
+            <message>
+              <![CDATA[You have not any parameter]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[com.unit.NoArgPassedException: You have not any parameter
+at com.unit.BasicMath.highestProper(BasicMath.java:18)
+at com.test.BasicMathTest.testHighestProper2(BasicMathTest.java:41)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- com.unit.NoArgPassedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHighestProper2 -->
       </class> <!-- com.test.BasicMathTest -->
       <class name="com.test.MathTest">
-        <test-method signature="factorialTest()[pri:0, instance:com.test.MathTest@5f16132a]" started-at="2021-09-29T16:37:36 IST" name="factorialTest" finished-at="2021-09-29T16:37:36 IST" duration-ms="12" status="PASS">
+        <test-method signature="factorialTest()[pri:0, instance:com.test.MathTest@5552768b]" started-at="2021-09-29T17:06:58 IST" name="factorialTest" finished-at="2021-09-29T17:06:58 IST" duration-ms="14" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- factorialTest -->
-        <test-method signature="factorialTest2()[pri:0, instance:com.test.MathTest@5f16132a]" started-at="2021-09-29T16:37:36 IST" name="factorialTest2" finished-at="2021-09-29T16:37:36 IST" duration-ms="6" status="PASS">
+        <test-method signature="factorialTest2()[pri:0, instance:com.test.MathTest@5552768b]" started-at="2021-09-29T17:06:58 IST" name="factorialTest2" finished-at="2021-09-29T17:06:58 IST" duration-ms="10" status="PASS">
           <exception class="java.lang.StackOverflowError">
             <full-stacktrace>
               <![CDATA[java.lang.StackOverflowError

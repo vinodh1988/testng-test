@@ -93,7 +93,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">3 methods,   3 passed</span>
+                    <span class="method-stats">7 methods,   7 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -115,6 +115,26 @@
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Static_functions_Math_Related_Test_Cases" title="com.test.BasicMathTest" class="method navigator-link" hash-for-method="highTest">highTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Static_functions_Math_Related_Test_Cases" title="com.test.BasicMathTest" class="method navigator-link" hash-for-method="testDivideProperly">testDivideProperly</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Static_functions_Math_Related_Test_Cases" title="com.test.BasicMathTest" class="method navigator-link" hash-for-method="testDivideZero">testDivideZero</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Static_functions_Math_Related_Test_Cases" title="com.test.BasicMathTest" class="method navigator-link" hash-for-method="testHighestProper">testHighestProper</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Static_functions_Math_Related_Test_Cases" title="com.test.BasicMathTest" class="method navigator-link" hash-for-method="testHighestProper2">testHighestProper2</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Static_functions_Math_Related_Test_Cases -->
@@ -162,6 +182,34 @@
                   <a name="highTest">
                   </a> <!-- highTest -->
                   <span class="method-name">highTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDivideProperly">
+                  </a> <!-- testDivideProperly -->
+                  <span class="method-name">testDivideProperly</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDivideZero">
+                  </a> <!-- testDivideZero -->
+                  <span class="method-name">testDivideZero</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testHighestProper">
+                  </a> <!-- testHighestProper -->
+                  <span class="method-name">testHighestProper</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testHighestProper2">
+                  </a> <!-- testHighestProper2 -->
+                  <span class="method-name">testHighestProper2</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -219,24 +267,40 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(3);
+data.addRows(7);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'factorialTest')
 data.setCell(0, 2, 'com.test.MathTest')
-data.setCell(0, 3, 12);
+data.setCell(0, 3, 14);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'factorialTest2')
 data.setCell(1, 2, 'com.test.MathTest')
-data.setCell(1, 3, 6);
+data.setCell(1, 3, 10);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'highTest')
 data.setCell(2, 2, 'com.test.BasicMathTest')
-data.setCell(2, 3, 3);
+data.setCell(2, 3, 4);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'testHighestProper')
+data.setCell(3, 2, 'com.test.BasicMathTest')
+data.setCell(3, 3, 3);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'testHighestProper2')
+data.setCell(4, 2, 'com.test.BasicMathTest')
+data.setCell(4, 3, 3);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'testDivideZero')
+data.setCell(5, 2, 'com.test.BasicMathTest')
+data.setCell(5, 3, 3);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'testDivideProperly')
+data.setCell(6, 2, 'com.test.BasicMathTest')
+data.setCell(6, 3, 2);
 window.suiteTableData['Static_functions_Math_Related_Test_Cases']= { tableData: data, tableDiv: 'times-div-Static_functions_Math_Related_Test_Cases'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 21 ms</span>
+              <span class="suite-total-time">Total running time: 39 ms</span>
               <div id="times-div-Static_functions_Math_Related_Test_Cases">
               </div> <!-- times-div-Static_functions_Math_Related_Test_Cases -->
             </div> <!-- times-div -->
@@ -269,14 +333,30 @@ return data;
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">factorialTest2</span>
-                <span class="method-start">15 ms</span>
+                <span class="method-start">19 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.test.BasicMathTest</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">highTest</span>
-                <span class="method-start">46 ms</span>
+                <span class="method-start">74 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testDivideProperly</span>
+                <span class="method-start">79 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testDivideZero</span>
+                <span class="method-start">83 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testHighestProper</span>
+                <span class="method-start">90 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testHighestProper2</span>
+                <span class="method-start">99 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

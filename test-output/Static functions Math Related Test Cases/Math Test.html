@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Math Test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>3/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>7/0/0</td>
 </tr><tr>
-<td>Started on:</td><td>Wed Sep 29 16:37:36 IST 2021</td>
+<td>Started on:</td><td>Wed Sep 29 17:06:58 IST 2021</td>
 </tr>
-<tr><td>Total time:</td><td>0 seconds (87 ms)</td>
+<tr><td>Total time:</td><td>0 seconds (168 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -74,6 +74,11 @@ function toggleAllBoxes() {
 <td width="10%"><b>Time (seconds)</b></td>
 <td><b>Instance</b></td>
 </tr>
+<tr>
+<td title='com.test.BasicMathTest.testDivideProperly()'><b>testDivideProperly</b><br>Test class: com.test.BasicMathTest</td>
+<td></td>
+<td>0</td>
+<td>com.test.BasicMathTest@1bb266b3</td></tr>
 <tr>
 <td title='com.test.MathTest.factorialTest2()'><b>factorialTest2</b><br>Test class: com.test.MathTest</td>
 <td><div><pre>java.lang.StackOverflowError
@@ -1101,8 +1106,8 @@ function toggleAllBoxes() {
 	at com.unit.MathOperation.factorial(MathOperation.java:8)
 	at com.unit.MathOperation.factorial(MathOperation.java:8)
 	at com.unit.MathOperation.factorial(MathOperation.java:8)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1400856767", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1400856767'><pre>java.lang.StackOverflowError
+</pre></div><a href='#' onClick='toggleBox("stack-trace1183231938", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1183231938'><pre>java.lang.StackOverflowError
 	at com.unit.MathOperation.factorial(MathOperation.java:8)
 	at com.unit.MathOperation.factorial(MathOperation.java:8)
 	at com.unit.MathOperation.factorial(MathOperation.java:8)
@@ -2129,17 +2134,104 @@ function toggleAllBoxes() {
 	at com.unit.MathOperation.factorial(MathOperation.java:8)
 </pre></div></td>
 <td>0</td>
-<td>com.test.MathTest@5f16132a</td></tr>
-<tr>
-<td title='com.test.BasicMathTest.highTest()'><b>highTest</b><br>Test class: com.test.BasicMathTest</td>
-<td></td>
-<td>0</td>
-<td>com.test.BasicMathTest@44a7bfbc</td></tr>
+<td>com.test.MathTest@5552768b</td></tr>
 <tr>
 <td title='com.test.MathTest.factorialTest()'><b>factorialTest</b><br>Test class: com.test.MathTest</td>
 <td></td>
 <td>0</td>
-<td>com.test.MathTest@5f16132a</td></tr>
+<td>com.test.MathTest@5552768b</td></tr>
+<tr>
+<td title='com.test.BasicMathTest.testHighestProper()'><b>testHighestProper</b><br>Test class: com.test.BasicMathTest</td>
+<td></td>
+<td>0</td>
+<td>com.test.BasicMathTest@1bb266b3</td></tr>
+<tr>
+<td title='com.test.BasicMathTest.testHighestProper2()'><b>testHighestProper2</b><br>Test class: com.test.BasicMathTest</td>
+<td><div><pre>com.unit.NoArgPassedException: You have not any parameter
+	at com.unit.BasicMath.highestProper(BasicMath.java:18)
+	at com.test.BasicMathTest.testHighestProper2(BasicMathTest.java:41)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace445918232", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace445918232'><pre>com.unit.NoArgPassedException: You have not any parameter
+	at com.unit.BasicMath.highestProper(BasicMath.java:18)
+	at com.test.BasicMathTest.testHighestProper2(BasicMathTest.java:41)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>com.test.BasicMathTest@1bb266b3</td></tr>
+<tr>
+<td title='com.test.BasicMathTest.highTest()'><b>highTest</b><br>Test class: com.test.BasicMathTest</td>
+<td></td>
+<td>0</td>
+<td>com.test.BasicMathTest@1bb266b3</td></tr>
+<tr>
+<td title='com.test.BasicMathTest.testDivideZero()'><b>testDivideZero</b><br>Test class: com.test.BasicMathTest</td>
+<td><div><pre>java.lang.ArithmeticException: / by zero
+	at com.unit.BasicMath.divide(BasicMath.java:29)
+	at com.test.BasicMathTest.testDivideZero(BasicMathTest.java:28)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace510276116", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace510276116'><pre>java.lang.ArithmeticException: / by zero
+	at com.unit.BasicMath.divide(BasicMath.java:29)
+	at com.test.BasicMathTest.testDivideZero(BasicMathTest.java:28)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>com.test.BasicMathTest@1bb266b3</td></tr>
 </table><p>
 </body>
 </html>

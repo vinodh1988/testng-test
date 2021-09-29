@@ -9,13 +9,25 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="8">Static functions Math Related Test Cases</th></tr>
-<tr><td><a href="#t0">Math Test</a></td><td class="num">3</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">87</td><td></td><td></td></tr>
+<tr><td><a href="#t0">Math Test</a></td><td class="num">7</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">168</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Static functions Math Related Test Cases</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Math Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.test.BasicMathTest</td><td><a href="#m0">highTest</a></td><td rowspan="1">1632913656185</td><td rowspan="1">3</td></tr><tr class="passedodd"><td rowspan="2">com.test.MathTest</td><td><a href="#m1">factorialTest</a></td><td rowspan="1">1632913656139</td><td rowspan="1">12</td></tr><tr class="passedodd"><td><a href="#m2">factorialTest2</a></td><td rowspan="1">1632913656154</td><td rowspan="1">6</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Static functions Math Related Test Cases</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Math Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="5">com.test.BasicMathTest</td><td><a href="#m0">highTest</a></td><td rowspan="1">1632915418331</td><td rowspan="1">4</td></tr><tr class="passedeven"><td><a href="#m1">testDivideProperly</a></td><td rowspan="1">1632915418336</td><td rowspan="1">2</td></tr><tr class="passedeven"><td><a href="#m2">testDivideZero</a></td><td rowspan="1">1632915418340</td><td rowspan="1">3</td></tr><tr class="passedeven"><td><a href="#m3">testHighestProper</a></td><td rowspan="1">1632915418347</td><td rowspan="1">3</td></tr><tr class="passedeven"><td><a href="#m4">testHighestProper2</a></td><td rowspan="1">1632915418356</td><td rowspan="1">3</td></tr><tr class="passedodd"><td rowspan="2">com.test.MathTest</td><td><a href="#m5">factorialTest</a></td><td rowspan="1">1632915418257</td><td rowspan="1">14</td></tr><tr class="passedodd"><td><a href="#m6">factorialTest2</a></td><td rowspan="1">1632915418276</td><td rowspan="1">10</td></tr></tbody>
 </table>
 <h2>Math Test</h2><h3 id="m0">com.test.BasicMathTest#highTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">com.test.MathTest#factorialTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">com.test.MathTest#factorialTest2</h3><table class="result"><tr><th>Expected Exception</th></tr><tr><td><div class="stacktrace">java.lang.StackOverflowError
+<h3 id="m1">com.test.BasicMathTest#testDivideProperly</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">com.test.BasicMathTest#testDivideZero</h3><table class="result"><tr><th>Expected Exception</th></tr><tr><td><div class="stacktrace">java.lang.ArithmeticException: / by zero
+	at com.unit.BasicMath.divide(BasicMath.java:29)
+	at com.test.BasicMathTest.testDivideZero(BasicMathTest.java:28)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 27 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">com.test.BasicMathTest#testHighestProper</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">com.test.BasicMathTest#testHighestProper2</h3><table class="result"><tr><th>Expected Exception</th></tr><tr><td><div class="stacktrace">com.unit.NoArgPassedException: You have not any parameter
+	at com.unit.BasicMath.highestProper(BasicMath.java:18)
+	at com.test.BasicMathTest.testHighestProper2(BasicMathTest.java:41)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 27 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">com.test.MathTest#factorialTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">com.test.MathTest#factorialTest2</h3><table class="result"><tr><th>Expected Exception</th></tr><tr><td><div class="stacktrace">java.lang.StackOverflowError
 	at com.unit.MathOperation.factorial(MathOperation.java:8)
 	at com.unit.MathOperation.factorial(MathOperation.java:8)
 	at com.unit.MathOperation.factorial(MathOperation.java:8)
