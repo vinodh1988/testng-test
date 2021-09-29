@@ -13,5 +13,10 @@ public class MathTest {
 		AssertJUnit.assertEquals(MathOperation.factorial(3),6);
 		AssertJUnit.assertEquals(MathOperation.factorial(0),1);
 	}
+	
+	@Test(expectedExceptions = StackOverflowError.class)
+	public void factorialTest2() {
+		MathOperation.factorial(-5);
+	}
 
 }
