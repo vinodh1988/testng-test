@@ -9,6 +9,9 @@ public class BrowserAutomation {
 		  WebDriver wb=new ChromeDriver();
 		  wb.get("http://www.google.co.in");
 		  System.out.println(wb.getTitle());
+		  wb.get("http://www.outlook.com");
+		  System.out.println(wb.getCurrentUrl());
+		  wb.navigate().back();
 	  }
 
 }
