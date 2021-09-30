@@ -20,5 +20,7 @@ public class HomeLoanCalculator {
      button.click();
 
 
+     System.out.println("EMI Amount "+wb.findElement(By.xpath("//*[@id=\"emiamount\"]/p/span")).getText());
+     System.out.println("EMI Total interest "+wb.findElement(By.xpath("//*[@id=\"emitotalinterest\"]/p/span")).getText());
   }
 }
