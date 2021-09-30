@@ -10,13 +10,15 @@ public class HomeLoanCalculator {
 	 WebElement loanamount= wb.findElement(By.id("loanamount"));
 	 WebElement loaninterest= wb.findElement(By.id("loaninterest"));
 	 WebElement loanterm= wb.findElement(By.id("loanterm"));
+	 WebElement button=wb.findElement(By.xpath("//*[@id=\"emicalculatorinnerform\"]/div[1]/div/div/div"));
 	 loanamount.clear();
 	 loanamount.sendKeys("\b10000000");
 	 loaninterest.clear();
      loaninterest.sendKeys("\b7.5");
      loanterm.clear();
      loanterm.sendKeys("\b10");
-     
+     button.click();
+
 
   }
 }
