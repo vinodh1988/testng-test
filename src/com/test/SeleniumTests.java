@@ -2,6 +2,7 @@ package com.test;
 
 import java.util.List;
 
+import org.apache.log4j.Logger;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -11,8 +12,10 @@ import org.testng.Assert;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
+
 public class SeleniumTests {
 	WebDriver wd;
+	Logger log=Logger.getLogger(SeleniumTests.class);
 	
   @BeforeTest
   public void setup() {
@@ -28,6 +31,8 @@ public class SeleniumTests {
     for(WebElement x:list)
     	System.out.println(x.getText());*/
 	Assert.assertEquals(list.get(2).getText(),"Commerce");
+	log.info("topic tests executed");
+	
   }
   
   @Test(priority=2)
@@ -36,6 +41,7 @@ public class SeleniumTests {
 	we.click();
 	Assert.assertNotNull(we);
 	Assert.assertEquals(wd.getCurrentUrl(),"https://www.india.gov.in/gsearch?s=Birth%20Certificate");
+    log.info("Birth certificatie linke working");
   }
   
   @Test(priority=3)
@@ -49,5 +55,6 @@ public class SeleniumTests {
 	WebElement link=wd.findElement(By.cssSelector("#nav > li.topics > ul > li:nth-child(21) > a"));
 	link.click();
 	Assert.assertEquals(wd.getCurrentUrl(), "https://www.india.gov.in/topics/rural");
+    log.info("mouse hovering tested");
   }
 }
