@@ -10,6 +10,8 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.FluentWait;
+import org.openqa.selenium.support.ui.Wait;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.annotations.BeforeTest;
@@ -52,6 +54,10 @@ public class WebsiteTests {
 	  btn1.click();
 	  //explicit await
 	  WebDriverWait wait=new WebDriverWait(wd, 30);
+	 /* Wait wait=new FluentWait(wd)
+			  .withTimeout(30,TimeUnit.SECONDS)
+			  .pollingEvery(3,TimeUnit.SECONDS)
+			  .ignoring(Exception.class);*/
 	  
 	  wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("message")));
 	  Assert.assertEquals(wd.findElement(By.id("message")).getText(),"INDIA");

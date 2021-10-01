@@ -2,28 +2,28 @@
 <testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-10-01T17:49:03 IST" name="Static Website Test Cases" finished-at="2021-10-01T17:49:13 IST" duration-ms="9265">
+  <suite started-at="2021-10-01T17:55:53 IST" name="Static Website Test Cases" finished-at="2021-10-01T17:56:04 IST" duration-ms="11113">
     <groups>
     </groups>
-    <test started-at="2021-10-01T17:49:03 IST" name="Selenium Static web site test" finished-at="2021-10-01T17:49:13 IST" duration-ms="9265">
+    <test started-at="2021-10-01T17:55:53 IST" name="Selenium Static web site test" finished-at="2021-10-01T17:56:04 IST" duration-ms="11113">
       <class name="com.test.WebsiteTests">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.test.WebsiteTests@41a0aa7d]" started-at="2021-10-01T17:49:03 IST" name="setup" finished-at="2021-10-01T17:49:06 IST" duration-ms="2134" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.test.WebsiteTests@2794eab6]" started-at="2021-10-01T17:55:53 IST" name="setup" finished-at="2021-10-01T17:55:57 IST" duration-ms="3873" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="titleTest()[pri:1, instance:com.test.WebsiteTests@41a0aa7d]" started-at="2021-10-01T17:49:06 IST" name="titleTest" finished-at="2021-10-01T17:49:07 IST" duration-ms="1227" status="PASS">
+        <test-method signature="titleTest()[pri:1, instance:com.test.WebsiteTests@2794eab6]" started-at="2021-10-01T17:55:57 IST" name="titleTest" finished-at="2021-10-01T17:55:58 IST" duration-ms="931" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- titleTest -->
-        <test-method signature="headerTest()[pri:2, instance:com.test.WebsiteTests@41a0aa7d]" started-at="2021-10-01T17:49:07 IST" name="headerTest" finished-at="2021-10-01T17:49:07 IST" duration-ms="50" status="PASS">
+        <test-method signature="headerTest()[pri:2, instance:com.test.WebsiteTests@2794eab6]" started-at="2021-10-01T17:55:58 IST" name="headerTest" finished-at="2021-10-01T17:55:58 IST" duration-ms="41" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- headerTest -->
-        <test-method signature="messageClick()[pri:3, instance:com.test.WebsiteTests@41a0aa7d]" started-at="2021-10-01T17:49:07 IST" name="messageClick" finished-at="2021-10-01T17:49:07 IST" duration-ms="89" status="PASS">
+        <test-method signature="messageClick()[pri:3, instance:com.test.WebsiteTests@2794eab6]" started-at="2021-10-01T17:55:58 IST" name="messageClick" finished-at="2021-10-01T17:55:58 IST" duration-ms="61" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- messageClick -->
-        <test-method signature="messageClick2()[pri:4, instance:com.test.WebsiteTests@41a0aa7d]" started-at="2021-10-01T17:49:07 IST" name="messageClick2" finished-at="2021-10-01T17:49:13 IST" duration-ms="5722" status="PASS">
+        <test-method signature="messageClick2()[pri:4, instance:com.test.WebsiteTests@2794eab6]" started-at="2021-10-01T17:55:58 IST" name="messageClick2" finished-at="2021-10-01T17:56:04 IST" duration-ms="6168" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- messageClick2 -->
