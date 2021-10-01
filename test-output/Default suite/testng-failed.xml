@@ -3,11 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.test.MathTest">
+      <class name="com.test.SeleniumTests">
         <methods>
-          <include name="factorialTest2"/>
+          <include name="setup"/>
+          <include name="testLinks"/>
         </methods>
-      </class> <!-- com.test.MathTest -->
+      </class> <!-- com.test.SeleniumTests -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

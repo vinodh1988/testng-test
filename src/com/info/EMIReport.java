@@ -16,7 +16,7 @@ public class EMIReport {
 	
 		for(EMIRecord record:elist) {
 			System.out.println(record.getAmount()+"     "+record.getInterest()+
-					"    "+record.getTerm()+"    "+record.getEmiamount()+"    "+record.getTotalinterest()
+					"                   "+record.getTerm()+"    "+record.getEmiamount()+"    "+record.getTotalinterest()
 					+"    "+record.getTotalamount());
 
 			
