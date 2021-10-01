@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Static functions Math Related Test Cases">
-   <test name="Math Test">
+<suite name="Static Website Test Cases">
+   <test name="Selenium Static web site test">
        <classes>
           <class name="com.test.WebsiteTests">
           </class>
