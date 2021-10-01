@@ -1,20 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="1" total="2" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-10-01T14:45:32 IST" name="Static functions Math Related Test Cases" finished-at="2021-10-01T14:45:37 IST" duration-ms="5377">
+  <suite started-at="2021-10-01T15:07:43 IST" name="Static functions Math Related Test Cases" finished-at="2021-10-01T15:07:56 IST" duration-ms="12635">
     <groups>
     </groups>
-    <test started-at="2021-10-01T14:45:32 IST" name="Math Test" finished-at="2021-10-01T14:45:37 IST" duration-ms="5377">
+    <test started-at="2021-10-01T15:07:43 IST" name="Math Test" finished-at="2021-10-01T15:07:56 IST" duration-ms="12635">
       <class name="com.test.SeleniumTests">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.test.SeleniumTests@74455848]" started-at="2021-10-01T14:45:32 IST" name="setup" finished-at="2021-10-01T14:45:34 IST" duration-ms="2317" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.test.SeleniumTests@e7edb54]" started-at="2021-10-01T15:07:43 IST" name="setup" finished-at="2021-10-01T15:07:45 IST" duration-ms="2576" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="testTopics()[pri:1, instance:com.test.SeleniumTests@74455848]" started-at="2021-10-01T14:45:34 IST" name="testTopics" finished-at="2021-10-01T14:45:37 IST" duration-ms="3011" status="PASS">
+        <test-method signature="testTopics()[pri:1, instance:com.test.SeleniumTests@e7edb54]" started-at="2021-10-01T15:07:45 IST" name="testTopics" finished-at="2021-10-01T15:07:48 IST" duration-ms="2366" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testTopics -->
+        <test-method signature="testLinks()[pri:2, instance:com.test.SeleniumTests@e7edb54]" started-at="2021-10-01T15:07:48 IST" name="testLinks" finished-at="2021-10-01T15:07:49 IST" duration-ms="1491" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLinks -->
+        <test-method signature="testHover()[pri:3, instance:com.test.SeleniumTests@e7edb54]" started-at="2021-10-01T15:07:49 IST" name="testHover" finished-at="2021-10-01T15:07:55 IST" duration-ms="6161" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHover -->
       </class> <!-- com.test.SeleniumTests -->
     </test> <!-- Math Test -->
   </suite> <!-- Static functions Math Related Test Cases -->

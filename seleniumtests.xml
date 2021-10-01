@@ -4,9 +4,9 @@
    <test name="Math Test">
        <classes>
           <class name="com.test.SeleniumTests">
-          <methods>
+         <!--   <methods>
              <exclude name="testLinks"></exclude>
-           </methods>
+           </methods>-->
           </class>
        </classes>
       

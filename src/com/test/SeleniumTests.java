@@ -6,6 +6,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.interactions.Actions;
 import org.testng.Assert;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
@@ -35,5 +36,18 @@ public class SeleniumTests {
 	we.click();
 	Assert.assertNotNull(we);
 	Assert.assertEquals(wd.getCurrentUrl(),"https://www.india.gov.in/gsearch?s=Birth%20Certificate");
+  }
+  
+  @Test(priority=3)
+  public void testHover() {
+	WebElement we=wd.findElement(By.cssSelector("#nav > li.topics > a"));
+	
+	Assert.assertNotNull(we);
+	Actions action = new  Actions(wd);
+	action.moveToElement(we).perform();
+	
+	WebElement link=wd.findElement(By.cssSelector("#nav > li.topics > ul > li:nth-child(21) > a"));
+	link.click();
+	Assert.assertEquals(wd.getCurrentUrl(), "https://www.india.gov.in/topics/rural");
   }
 }

@@ -93,7 +93,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method,   1 passed</span>
+                    <span class="method-stats">3 methods,   3 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -102,6 +102,16 @@
                       <a href="#" panel-name="suite-Static_functions_Math_Related_Test_Cases" class="show-methods passed suite-Static_functions_Math_Related_Test_Cases"> (show)</a> <!-- show-methods passed suite-Static_functions_Math_Related_Test_Cases -->
                     </span>
                     <div class="method-list-content passed suite-Static_functions_Math_Related_Test_Cases">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Static_functions_Math_Related_Test_Cases" title="com.test.SeleniumTests" class="method navigator-link" hash-for-method="testHover">testHover</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Static_functions_Math_Related_Test_Cases" title="com.test.SeleniumTests" class="method navigator-link" hash-for-method="testLinks">testLinks</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Static_functions_Math_Related_Test_Cases" title="com.test.SeleniumTests" class="method navigator-link" hash-for-method="testTopics">testTopics</a> <!-- method navigator-link -->
@@ -127,6 +137,20 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
+                  <a name="testHover">
+                  </a> <!-- testHover -->
+                  <span class="method-name">testHover</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLinks">
+                  </a> <!-- testLinks -->
+                  <span class="method-name">testLinks</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
                   <a name="testTopics">
                   </a> <!-- testTopics -->
                   <span class="method-name">testTopics</span>
@@ -146,11 +170,7 @@
 &lt;suite name=&quot;Static functions Math Related Test Cases&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Math Test&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;com.test.SeleniumTests&quot;&gt;
-        &lt;methods&gt;
-          &lt;exclude name=&quot;testLinks&quot;/&gt;
-        &lt;/methods&gt;
-      &lt;/class&gt; &lt;!-- com.test.SeleniumTests --&gt;
+      &lt;class name=&quot;com.test.SeleniumTests&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Math Test --&gt;
 &lt;/suite&gt; &lt;!-- Static functions Math Related Test Cases --&gt;
@@ -190,16 +210,24 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(1);
+data.addRows(3);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'testTopics')
+data.setCell(0, 1, 'testHover')
 data.setCell(0, 2, 'com.test.SeleniumTests')
-data.setCell(0, 3, 3011);
+data.setCell(0, 3, 6161);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testTopics')
+data.setCell(1, 2, 'com.test.SeleniumTests')
+data.setCell(1, 3, 2366);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'testLinks')
+data.setCell(2, 2, 'com.test.SeleniumTests')
+data.setCell(2, 3, 1491);
 window.suiteTableData['Static_functions_Math_Related_Test_Cases']= { tableData: data, tableDiv: 'times-div-Static_functions_Math_Related_Test_Cases'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 3 seconds</span>
+              <span class="suite-total-time">Total running time: 10 seconds</span>
               <div id="times-div-Static_functions_Math_Related_Test_Cases">
               </div> <!-- times-div-Static_functions_Math_Related_Test_Cases -->
             </div> <!-- times-div -->
@@ -214,16 +242,9 @@ return data;
         </div> <!-- panel -->
         <div panel-name="ignored-methods-Static_functions_Math_Related_Test_Cases" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">1 ignored method</span>
+            <span class="header-content">0 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
-            <div class="ignored-class-div">
-              <span class="ignored-class-name">com.test.SeleniumTests</span>
-              <div class="ignored-methods-div">
-                <span class="ignored-method-name">testLinks</span>
-                <br/>
-              </div> <!-- ignored-methods-div -->
-            </div> <!-- ignored-class-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="chronological-Static_functions_Math_Related_Test_Cases" class="panel">
@@ -239,7 +260,15 @@ return data;
               </div> <!-- configuration-test before -->
               <div class="test-method">
                 <span class="method-name">testTopics</span>
-                <span class="method-start">2347 ms</span>
+                <span class="method-start">2600 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testLinks</span>
+                <span class="method-start">4971 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testHover</span>
+                <span class="method-start">6464 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
