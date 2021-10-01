@@ -3,12 +3,12 @@
 <suite name="Failed suite [Static functions Math Related Test Cases]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Math Test(failed)">
     <classes>
-      <class name="com.test.SeleniumTests">
+      <class name="com.test.WebsiteTests">
         <methods>
           <include name="setup"/>
-          <include name="testLinks"/>
+          <include name="headerTest"/>
         </methods>
-      </class> <!-- com.test.SeleniumTests -->
+      </class> <!-- com.test.WebsiteTests -->
     </classes>
   </test> <!-- Math Test(failed) -->
 </suite> <!-- Failed suite [Static functions Math Related Test Cases] -->
