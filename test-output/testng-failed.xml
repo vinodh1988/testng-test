@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Static Website Test Cases]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" name="Selenium Static web site test(failed)">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.test.WebsiteTests">
+      <class name="com.test.DataDrivenTests">
         <methods>
-          <include name="setup"/>
-          <include name="messageClick2"/>
+          <include name="test" invocation-numbers="0 1 2 3"/>
         </methods>
-      </class> <!-- com.test.WebsiteTests -->
+      </class> <!-- com.test.DataDrivenTests -->
     </classes>
-  </test> <!-- Selenium Static web site test(failed) -->
-</suite> <!-- Failed suite [Static Website Test Cases] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

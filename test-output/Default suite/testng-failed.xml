@@ -3,12 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.test.SeleniumTests">
+      <class name="com.test.DataDrivenTests">
         <methods>
-          <include name="setup"/>
-          <include name="testLinks"/>
+          <include name="test" invocation-numbers="0 1 2 3"/>
         </methods>
-      </class> <!-- com.test.SeleniumTests -->
+      </class> <!-- com.test.DataDrivenTests -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

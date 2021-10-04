@@ -10,6 +10,7 @@ public class PageModel {
   private   static By searchbox = By.name("q");
   private static By searchButton = By.name("btnK");
   private static By inputBox = By.xpath("//*[@jsname=\"axsL6b\"]");
+  private static By outputBox = By.xpath("//*[@jsname=\"fPLMtf\"]");
   
   private static By selectItem1 = By.xpath("//*[@jsname=\"MVliGc\"]");
   private static By selectItem2 = By.xpath("//*[@jsname=\"De9Fne\"]");
@@ -24,6 +25,10 @@ public class PageModel {
   }
   public static  WebElement button(WebDriver wb) {
 	  return wb.findElement(searchButton);
+  }
+  
+  public static  WebElement output(WebDriver wb) {
+	  return wb.findElement(outputBox);
   }
   
   public static  Select select1(WebDriver wb) {
