@@ -31,7 +31,7 @@ public class WebsiteTests {
   
   @Test(priority=1)
   public void titleTest() {
-	  wd.get("http://20.98.246.113/");
+	  wd.get("http://localhost/");
 	  Assert.assertEquals(wd.getTitle(), "SampleSite");
   }
   
